@@ -3,17 +3,17 @@
   }
   
   button {
-    background-color: rgb(16, 77, 190);
-    color: white;
+    background-color: rgba(16, 91, 190, 0.786);
+    color: rgba(242, 244, 244, 0.996);
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 25px;
     cursor: pointer;
     border-radius: 5px;
   }
   
   button:hover {
-    background-color: #1107a1;
+    background-color: #0c23bbc0;
   }
   
   /* Estilo para el ícono del carrito */

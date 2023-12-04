@@ -1,6 +1,13 @@
 .navbar {
     background-color: #f5f0f0;
     width: 100%; /* Ajuste para que ocupe toda la pantalla */
+    font-size: 20px;
+    font-weight: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+
+
 }
   
 .navbar-brand {
@@ -16,7 +23,7 @@
     margin-right: 20px;
 }
   
-.nav-link:hover {
+.container:hover {
     color: #1100ff;
 }
   
@@ -24,13 +31,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; /* Ajuste para que el contenedor ocupe toda la pantalla */
+    width: 70%; ; /* Ajuste para que el contenedor ocupe toda la pantalla */
      /* Ajuste de relleno para dar espacio alrededor del contenido */
 }
   
 .cart-widget-button {
     background-color: #ffcc00;
-    color: #333;
+    color: #0b14c390;
     border: none;
     padding: 10px 15px;
     font-size: 16px;

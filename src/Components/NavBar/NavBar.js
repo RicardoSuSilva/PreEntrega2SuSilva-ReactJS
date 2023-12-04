@@ -10,15 +10,14 @@ function NavBar() {
     return (
       <>
       
-        <Navbar bg="primary" data-bs-theme="dark">
+        <Navbar bg="light" data-bs-theme="light">
           <Container>
             <Navbar.Brand to="/"> <Logo/> SUShop </Navbar.Brand>
-            <Nav className="me-auto">
+            <Nav className="container">
               <Link to="/">Inicio</Link>
               <Link to="/ropa">Ropa</Link>
               <Link to="/calzado">Calzado</Link>
               <Link to="/accesorio">Accesorio</Link>
-            
 
             </Nav>
           <Link to="/cart"> <CartWidget/> </Link>
