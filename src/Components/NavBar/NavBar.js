@@ -15,9 +15,9 @@ function NavBar() {
             <Navbar.Brand to="/"> <Logo/> SUShop </Navbar.Brand>
             <Nav className="container">
               <Link to="/">Inicio</Link>
-              <Link to="/ropa">Ropa</Link>
-              <Link to="/calzado">Calzado</Link>
-              <Link to="/accesorio">Accesorio</Link>
+              <Link to="/categoria/ropa">Ropa</Link>
+              <Link to="/categoria/calzado">Calzado</Link>
+              <Link to="/categoria/accesorio">Accesorio</Link>
 
             </Nav>
           <Link to="/cart"> <CartWidget/> </Link>

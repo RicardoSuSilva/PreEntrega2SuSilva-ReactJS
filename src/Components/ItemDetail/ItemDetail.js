@@ -4,10 +4,10 @@ const ItemDetail = ({item}) => {
     return(
         <div className='row'>
             <div className='col-md-4 iifset-md-4'>
-            <img src={item.img} className='img-fluid' alt={item.name} />
+            <img src={item.image} className='img-fluid' alt={item.name} />
             <h3>{item.name}</h3>
             <p>{item.desc}</p>
-            <p>US $ {item.price}</p>
+            <p>US$ {item.price}</p>
             <p>Cantidad: {item.stock}</p>
             </div>
 

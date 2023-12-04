@@ -5,6 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import Error from './Components/Error';
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
+import CartWidget from './Components/CartWidget/CartWidget';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Route path={'/'} element={ <ItemListContainer greeting='Catalogo de Productos'/> } />
       <Route path={'/categoria/:id'} element={ <ItemListContainer/> } />
       <Route path={'/item/:id'} element={ <ItemDetailContainer/> } />
+      <Route path={'/cart'} element={ <CartWidget/> } />
       <Route path={'*'} element={ <Error />} />
     
     </Routes>

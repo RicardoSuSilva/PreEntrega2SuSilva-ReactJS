@@ -4,7 +4,7 @@
       "name": "Camisa Casual",
       "price": 45,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-1.jpg",
+      "image": "../images/img-1.jpg",
       "categoria": "ropa",
       "stock": 40
       
@@ -14,7 +14,7 @@
       "name": "Camisa Vestir",
       "price": 100,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-2.jpg",
+      "image": "../images/img-2.jpg",
       "categoria": "ropa",
       "stock": 45
     },
@@ -23,7 +23,7 @@
       "name": "Remera ",
       "price": 25,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-3.jpg",
+      "image": "../images/img-3.jpg",
       "categoria": "ropa",
       "stock": 60
     },
@@ -32,7 +32,7 @@
       "name": "Saco Mens",
       "price": 300,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-4.jpg",
+      "image": "../images/img-4.jpg",
       "categoria": "ropa",
       "stock": 55
     },
@@ -41,7 +41,7 @@
       "name": "Corbata",
       "price": 25,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-5.png",
+      "image": "../images/img-5.png",
       "categoria": "accesorio",
       "stock": 50
     },
@@ -50,7 +50,7 @@
       "name": "Calzado Casual",
       "price": 200,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-6.png",
+      "image": "../images/img-6.png",
       "categoria": "calzado",
       "stock": 70
     },
@@ -59,7 +59,7 @@
       "name": "Traje Black",
       "price": 450,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-7.png",
+      "image": "../images/img-7.png",
       "categoria":"ropa",
       "stock": 50
     },
@@ -68,7 +68,7 @@
       "name": "Chomba Polo",
       "price": 45,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-8.png",
+      "image": "../images/img-8.png",
       "categoria":"ropa",
       "stock": 80
     },
@@ -77,7 +77,7 @@
       "name": "Camisa Denim",
       "price": 85,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-9.png",
+      "image": "../images/img-9.png",
       "categoria":"ropa",
       "stock": 60
     },
@@ -86,7 +86,7 @@
       "name": "Pantalon Denim",
       "price": 120,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-10.png",
+      "image": "../images/img-10.png",
       "categoria":"ropa",
       "stock": 100
     },
@@ -95,7 +95,7 @@
       "name": "Gorra Basic",
       "price": 35,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-11.png",
+      "image": "../images/img-11.png",
       "categoria": "accesorio",
       "stock": 120
     },
@@ -104,7 +104,7 @@
       "name": "Botines Cuero",
       "price": 350,
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      "img": "../images/img-12.png",
+      "image": "../images/img-12.png",
       "categoria":"calzado",
       "stock": 100
     }
