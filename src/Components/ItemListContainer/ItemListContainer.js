@@ -29,10 +29,10 @@ const ItemListContainer = () => {
 
  return(
     <div className='container'>
-        <div className='row'>
+      <div className='row'>
 
       <ItemList item={item}/>
-
+        
       </div>
     </div>
   );

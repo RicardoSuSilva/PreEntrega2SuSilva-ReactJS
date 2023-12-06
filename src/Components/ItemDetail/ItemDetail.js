@@ -13,7 +13,7 @@ const ItemDetail = ({item}) => {
 
         </div>
 
-    );
+    ); 
 
 }
 
