@@ -1,4 +1,5 @@
 .navbar {
+
     background-color: #f5f0f0;
     width: 100%; /* Ajuste para que ocupe toda la pantalla */
     font-size: 20px;
@@ -11,6 +12,7 @@
 }
   
 .navbar-brand {
+
     color: #f7e9e9;
     font-size: 24px;
     font-weight: bold;
@@ -28,12 +30,16 @@
 }
   
 .container {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%; ; /* Ajuste para que el contenedor ocupe toda la pantalla */
+    width: 70%; 
+
+}   
+    /* Ajuste para que el contenedor ocupe toda la pantalla */
      /* Ajuste de relleno para dar espacio alrededor del contenido */
-}
+
   
 .cart-widget-button {
     background-color: #ffcc00;

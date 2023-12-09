@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 const Error = () => {
     return(
         <div>
-            <h3> Error, el producto No existe </h3>
+            <h3> Error, el Producto No Existe, retornar al Inicio </h3>
 
         </div>
 
