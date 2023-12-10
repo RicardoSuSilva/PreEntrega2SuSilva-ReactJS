@@ -19,27 +19,24 @@ const ItemListContainer = () => {
           resolve( id ? arrayProductos.filter(item => item.categoria === id) : arrayProductos)
       }, 1500);
     });
-    setItem(data);
-  }catch(error){
+  setItem(data);
+  } catch(error){
     console.log('Error:', error);
   }
 
- };
+  };
     fetchData();
   }, [id])
 
- return(
-    <div className='container '>
+  return(
+    <div className='container'>
+      <div className='row'>  
       
-      
-
       <ItemList item={item}/>
-
       </div>
-    
+    </div>
     
   );
-
 
 }
 

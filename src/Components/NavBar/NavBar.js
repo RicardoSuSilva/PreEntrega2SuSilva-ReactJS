@@ -10,10 +10,10 @@ function NavBar() {
     return (
       <>
       
-        <Navbar bg="light" data-bs-theme="light">
+        <Navbar bg="primary" data-bs-theme="dark">
           <Container>
-            <Navbar.Brand to="/"> <Logo/> SUShop </Navbar.Brand>
-            <Nav className="me-auto">
+            <Navbar.Brand to="/"> <Logo/> </Navbar.Brand>
+            <Nav className="nav">
               <Link to="/">Inicio</Link>
               <Link to="/categoria/ropa">Ropa</Link>
               <Link to="/categoria/calzado">Calzado</Link>

@@ -1,56 +1,16 @@
-.navbar {
+.nav {
 
     background-color: #f5f0f0;
     width: 100%; /* Ajuste para que ocupe toda la pantalla */
     font-size: 20px;
-    font-weight: 0;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-
-
-
-}
-  
-.navbar-brand {
-
-    color: #f7e9e9;
-    font-size: 24px;
     font-weight: bold;
-    margin-right: 2.5rem; /* Agrega margen a la derecha para separar del resto de los elementos */
-}
-  
-.nav-link {
-    color: #c1e411;
-    font-size: 18px;
-    margin-right: 20px;
-}
-  
-.container:hover {
-    color: #0c23bbc0;
-}
-  
-.container {
-
+    padding-right: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 70%; 
+}
 
-}   
-    /* Ajuste para que el contenedor ocupe toda la pantalla */
-     /* Ajuste de relleno para dar espacio alrededor del contenido */
-
-  
-.cart-widget-button {
-    background-color: #ffcc00;
-    color: #0b14c390;
-    border: none;
-    padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+.nav :link:hover {
+    background-color: blue;
 }
   
-.cart-widget-button:hover {
-    background-color: #ffd633;
-}
