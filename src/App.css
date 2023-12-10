@@ -1,18 +1,18 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
+  
 }
 
 .App {
-  background-color: #afe6fc;
-  
-  
+  background-color: #d2edf8;
+ 
   flex-direction: column;
   align-items: center;
   display: grid;
-  grid-template-columns: repeat (4, 1fr);
+  
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(50px, auto);
    
 }
 

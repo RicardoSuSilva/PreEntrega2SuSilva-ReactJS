@@ -18,7 +18,6 @@ function NavBar() {
               <Link to="/categoria/ropa">Ropa</Link>
               <Link to="/categoria/calzado">Calzado</Link>
               <Link to="/categoria/accesorio">Accesorio</Link>
-
             </Nav>
             <Link to="/cart"> <CartWidget/> </Link>
           </Container>

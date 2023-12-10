@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import arrayProductos from '../Json/arrayProductos.json';
-
+import './ItemListContainer.css';
 import ItemList from '../ItemList/ItemList';
 
 
@@ -32,7 +32,8 @@ const ItemListContainer = () => {
     <div className='container'>
       <div className='row'>  
       
-      <ItemList item={item}/>
+       <ItemList item={item}/>
+      
       </div>
     </div>
     

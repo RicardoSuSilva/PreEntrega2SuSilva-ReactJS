@@ -14,19 +14,14 @@ function App() {
     <div className="App">
     <BrowserRouter>
     <NavBar/>
-
     <Routes>
-
-      <Route path={'/'} element={ <ItemListContainer/> } />
-      <Route path={'/categoria/:id'} element={ <ItemListContainer/> } />
-      <Route path={'/item/:id'} element={ <ItemDetailContainer/> } />
-      <Route path={'/cart'} element={ <CartWidget/> } />
-      <Route path={'*'} element={ <Error />} />
-    
+      <Route path={'/'} element={<ItemListContainer/>} />
+      <Route path={'/categoria/:id'} element={<ItemListContainer/>} />
+      <Route path={'/item/:id'} element={<ItemDetailContainer/>} />
+      <Route path={'/cart'} element={<CartWidget/>} />
+      <Route path={'*'} element={<Error/>} />
     </Routes>
-
     </BrowserRouter>
-
     </div>
 
   );
